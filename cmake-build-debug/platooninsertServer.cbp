@@ -70,47 +70,47 @@
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/platooninsertServer/Channel.cpp">
+      <Unit filename="/home/platooninsertServer/src/Channel.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EchoServer.cpp">
+      <Unit filename="/home/platooninsertServer/src/EchoServer.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoop.cpp">
+      <Unit filename="/home/platooninsertServer/src/EventLoop.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoopThread.cpp">
+      <Unit filename="/home/platooninsertServer/src/EventLoopThread.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoopThreadPool.cpp">
+      <Unit filename="/home/platooninsertServer/src/EventLoopThreadPool.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Poller.cpp">
+      <Unit filename="/home/platooninsertServer/src/Poller.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Socket.cpp">
+      <Unit filename="/home/platooninsertServer/src/Socket.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/TcpConnection.cpp">
+      <Unit filename="/home/platooninsertServer/src/TcpConnection.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/TcpServer.cpp">
+      <Unit filename="/home/platooninsertServer/src/TcpServer.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/ThreadPool.cpp">
+      <Unit filename="/home/platooninsertServer/src/ThreadPool.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/main.cpp">
+      <Unit filename="/home/platooninsertServer/src/main.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Channel.h">
+      <Unit filename="/home/platooninsertServer/src/Channel.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EchoServer.h">
+      <Unit filename="/home/platooninsertServer/src/EchoServer.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoop.h">
+      <Unit filename="/home/platooninsertServer/src/EventLoop.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoopThread.h">
+      <Unit filename="/home/platooninsertServer/src/EventLoopThread.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoopThreadPool.h">
+      <Unit filename="/home/platooninsertServer/src/EventLoopThreadPool.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Poller.h">
+      <Unit filename="/home/platooninsertServer/src/Poller.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Socket.h">
+      <Unit filename="/home/platooninsertServer/src/Socket.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/TcpConnection.h">
+      <Unit filename="/home/platooninsertServer/src/TcpConnection.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/TcpServer.h">
+      <Unit filename="/home/platooninsertServer/src/TcpServer.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/ThreadPool.h">
+      <Unit filename="/home/platooninsertServer/src/ThreadPool.h">
       </Unit>
       <Unit filename="/home/platooninsertServer/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />

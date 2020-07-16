@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
                                 //客户端发送RST包后，服务器还调用write会触发
 
     int port = 8080;
-    int ioThreadNum = 4;
+    int ioThreadNum = 4;//test
 
     if(argc == 3)
     {

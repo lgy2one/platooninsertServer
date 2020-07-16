@@ -6,39 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/tmp/tmp.nsY57RXxfK/Channel.cpp
+/home/platooninsertServer/src/Channel.cpp
 Channel.h
-/tmp/tmp.nsY57RXxfK/Channel.h
+/home/platooninsertServer/src/Channel.h
 iostream
 -
 sys/epoll.h
 -
 
-/tmp/tmp.nsY57RXxfK/Channel.h
+/home/platooninsertServer/src/Channel.h
 functional
 -
 
-/tmp/tmp.nsY57RXxfK/EchoServer.cpp
+/home/platooninsertServer/src/EchoServer.cpp
 EchoServer.h
-/tmp/tmp.nsY57RXxfK/EchoServer.h
+/home/platooninsertServer/src/EchoServer.h
 iostream
 -
 functional
 -
 
-/tmp/tmp.nsY57RXxfK/EchoServer.h
+/home/platooninsertServer/src/EchoServer.h
 string
 -
 TcpServer.h
-/tmp/tmp.nsY57RXxfK/TcpServer.h
+/home/platooninsertServer/src/TcpServer.h
 EventLoop.h
-/tmp/tmp.nsY57RXxfK/EventLoop.h
+/home/platooninsertServer/src/EventLoop.h
 TcpConnection.h
-/tmp/tmp.nsY57RXxfK/TcpConnection.h
+/home/platooninsertServer/src/TcpConnection.h
 
-/tmp/tmp.nsY57RXxfK/EventLoop.cpp
+/home/platooninsertServer/src/EventLoop.cpp
 EventLoop.h
-/tmp/tmp.nsY57RXxfK/EventLoop.h
+/home/platooninsertServer/src/EventLoop.h
 iostream
 -
 sys/eventfd.h
@@ -48,7 +48,7 @@ unistd.h
 stdlib.h
 -
 
-/tmp/tmp.nsY57RXxfK/EventLoop.h
+/home/platooninsertServer/src/EventLoop.h
 iostream
 -
 functional
@@ -60,19 +60,19 @@ thread
 mutex
 -
 Poller.h
-/tmp/tmp.nsY57RXxfK/Poller.h
+/home/platooninsertServer/src/Poller.h
 Channel.h
-/tmp/tmp.nsY57RXxfK/Channel.h
+/home/platooninsertServer/src/Channel.h
 
-/tmp/tmp.nsY57RXxfK/EventLoopThread.cpp
+/home/platooninsertServer/src/EventLoopThread.cpp
 EventLoopThread.h
-/tmp/tmp.nsY57RXxfK/EventLoopThread.h
+/home/platooninsertServer/src/EventLoopThread.h
 iostream
 -
 sstream
 -
 
-/tmp/tmp.nsY57RXxfK/EventLoopThread.h
+/home/platooninsertServer/src/EventLoopThread.h
 iostream
 -
 string
@@ -80,13 +80,13 @@ string
 thread
 -
 EventLoop.h
-/tmp/tmp.nsY57RXxfK/EventLoop.h
+/home/platooninsertServer/src/EventLoop.h
 
-/tmp/tmp.nsY57RXxfK/EventLoopThreadPool.cpp
+/home/platooninsertServer/src/EventLoopThreadPool.cpp
 EventLoopThreadPool.h
-/tmp/tmp.nsY57RXxfK/EventLoopThreadPool.h
+/home/platooninsertServer/src/EventLoopThreadPool.h
 
-/tmp/tmp.nsY57RXxfK/EventLoopThreadPool.h
+/home/platooninsertServer/src/EventLoopThreadPool.h
 iostream
 -
 vector
@@ -94,13 +94,13 @@ vector
 string
 -
 EventLoop.h
-/tmp/tmp.nsY57RXxfK/EventLoop.h
+/home/platooninsertServer/src/EventLoop.h
 EventLoopThread.h
-/tmp/tmp.nsY57RXxfK/EventLoopThread.h
+/home/platooninsertServer/src/EventLoopThread.h
 
-/tmp/tmp.nsY57RXxfK/Poller.cpp
+/home/platooninsertServer/src/Poller.cpp
 Poller.h
-/tmp/tmp.nsY57RXxfK/Poller.h
+/home/platooninsertServer/src/Poller.h
 iostream
 -
 stdio.h
@@ -112,7 +112,7 @@ unistd.h
 errno.h
 -
 
-/tmp/tmp.nsY57RXxfK/Poller.h
+/home/platooninsertServer/src/Poller.h
 vector
 -
 mutex
@@ -122,11 +122,11 @@ map
 sys/epoll.h
 -
 Channel.h
-/tmp/tmp.nsY57RXxfK/Channel.h
+/home/platooninsertServer/src/Channel.h
 
-/tmp/tmp.nsY57RXxfK/Socket.cpp
+/home/platooninsertServer/src/Socket.cpp
 Socket.h
-/tmp/tmp.nsY57RXxfK/Socket.h
+/home/platooninsertServer/src/Socket.h
 iostream
 -
 stdio.h
@@ -146,7 +146,7 @@ stdlib.h
 cstring
 -
 
-/tmp/tmp.nsY57RXxfK/Socket.h
+/home/platooninsertServer/src/Socket.h
 sys/socket.h
 -
 netinet/in.h
@@ -154,9 +154,9 @@ netinet/in.h
 arpa/inet.h
 -
 
-/tmp/tmp.nsY57RXxfK/TcpConnection.cpp
+/home/platooninsertServer/src/TcpConnection.cpp
 TcpConnection.h
-/tmp/tmp.nsY57RXxfK/TcpConnection.h
+/home/platooninsertServer/src/TcpConnection.h
 stdio.h
 -
 iostream
@@ -170,7 +170,7 @@ errno.h
 unistd.h
 -
 
-/tmp/tmp.nsY57RXxfK/TcpConnection.h
+/home/platooninsertServer/src/TcpConnection.h
 functional
 -
 string
@@ -188,13 +188,13 @@ thread
 memory
 -
 Channel.h
-/tmp/tmp.nsY57RXxfK/Channel.h
+/home/platooninsertServer/src/Channel.h
 EventLoop.h
-/tmp/tmp.nsY57RXxfK/EventLoop.h
+/home/platooninsertServer/src/EventLoop.h
 
-/tmp/tmp.nsY57RXxfK/TcpServer.cpp
+/home/platooninsertServer/src/TcpServer.cpp
 TcpServer.h
-/tmp/tmp.nsY57RXxfK/TcpServer.h
+/home/platooninsertServer/src/TcpServer.h
 iostream
 -
 stdio.h
@@ -214,7 +214,7 @@ arpa/inet.h
 memory
 -
 
-/tmp/tmp.nsY57RXxfK/TcpServer.h
+/home/platooninsertServer/src/TcpServer.h
 functional
 -
 string
@@ -224,25 +224,25 @@ map
 mutex
 -
 Socket.h
-/tmp/tmp.nsY57RXxfK/Socket.h
+/home/platooninsertServer/src/Socket.h
 Channel.h
-/tmp/tmp.nsY57RXxfK/Channel.h
+/home/platooninsertServer/src/Channel.h
 EventLoop.h
-/tmp/tmp.nsY57RXxfK/EventLoop.h
+/home/platooninsertServer/src/EventLoop.h
 TcpConnection.h
-/tmp/tmp.nsY57RXxfK/TcpConnection.h
+/home/platooninsertServer/src/TcpConnection.h
 EventLoopThreadPool.h
-/tmp/tmp.nsY57RXxfK/EventLoopThreadPool.h
+/home/platooninsertServer/src/EventLoopThreadPool.h
 
-/tmp/tmp.nsY57RXxfK/ThreadPool.cpp
+/home/platooninsertServer/src/ThreadPool.cpp
 ThreadPool.h
-/tmp/tmp.nsY57RXxfK/ThreadPool.h
+/home/platooninsertServer/src/ThreadPool.h
 deque
 -
 unistd.h
 -
 
-/tmp/tmp.nsY57RXxfK/ThreadPool.h
+/home/platooninsertServer/src/ThreadPool.h
 iostream
 -
 vector
@@ -261,4 +261,12 @@ condition_variable
 -
 functional
 -
+
+/home/platooninsertServer/src/main.cpp
+signal.h
+-
+EventLoop.h
+/home/platooninsertServer/src/EventLoop.h
+EchoServer.h
+/home/platooninsertServer/src/EchoServer.h
 

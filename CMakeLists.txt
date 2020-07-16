@@ -9,12 +9,11 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} "-pthread")
 
 #支持gdb
-set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
+set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O3 -Wall -g -ggdb")
 
-set(SOURCE_FILES main.cpp)
-
+#添加一些参数定义
 add_definitions(-g -pthread -std=c++11)
 
-#添加所有头文件和源文件
-FILE(GLOB SRC *.cpp *.h)
-add_executable(platooninsertServer ${SOURCE_FILES} ${SRC})
+#添加所有头文件和源文件，输出可执行文件
+FILE(GLOB SRC src/*.cpp src/*.h)
+add_executable(platooninsertServer ${SRC})
