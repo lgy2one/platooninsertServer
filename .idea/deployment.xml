@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="VMware (6505b7b2-ef33-4955-83a4-5ef32b531487)">
+  <component name="PublishConfigData">
     <serverData>
-      <paths name="VMware (6505b7b2-ef33-4955-83a4-5ef32b531487)">
+      <paths name="AliCloud (736649b8-453b-4e2b-b257-bff0fdfbdc22)">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/platooninsertServer" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/CLionProject/platooninsertServer" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />

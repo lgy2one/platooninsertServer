@@ -8,18 +8,18 @@
       <Option virtualFolders="CMake Files\;" />
       <Build>
       <Target title="all">
-         <Option working_dir="/home/platooninsertServer/cmake-build-debug" />
+         <Option working_dir="/home/CLionProject/platooninsertServer/cmake-build-debug" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="platooninsertServer">
-         <Option output="/home/platooninsertServer/cmake-build-debug/platooninsertServer" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/platooninsertServer/cmake-build-debug" />
+         <Option output="/home/CLionProject/platooninsertServer/cmake-build-debug/platooninsertServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/CLionProject/platooninsertServer/cmake-build-debug" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -32,15 +32,15 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 platooninsertServer" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 platooninsertServer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="platooninsertServer/fast">
-         <Option output="/home/platooninsertServer/cmake-build-debug/platooninsertServer" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/platooninsertServer/cmake-build-debug" />
+         <Option output="/home/CLionProject/platooninsertServer/cmake-build-debug/platooninsertServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/CLionProject/platooninsertServer/cmake-build-debug" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -53,66 +53,66 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 platooninsertServer/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 platooninsertServer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="rebuild_cache">
-         <Option working_dir="/home/platooninsertServer/cmake-build-debug" />
+         <Option working_dir="/home/CLionProject/platooninsertServer/cmake-build-debug" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/CLionProject/platooninsertServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/platooninsertServer/Channel.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/Channel.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EchoServer.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/EchoServer.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoop.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/EventLoop.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoopThread.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/EventLoopThread.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoopThreadPool.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/EventLoopThreadPool.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Poller.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/Poller.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Socket.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/Socket.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/TcpConnection.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/TcpConnection.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/TcpServer.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/TcpServer.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/ThreadPool.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/ThreadPool.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/main.cpp">
+      <Unit filename="/home/CLionProject/platooninsertServer/main.cpp">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Channel.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/Channel.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EchoServer.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/EchoServer.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoop.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/EventLoop.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoopThread.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/EventLoopThread.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/EventLoopThreadPool.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/EventLoopThreadPool.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Poller.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/Poller.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/Socket.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/Socket.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/TcpConnection.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/TcpConnection.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/TcpServer.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/TcpServer.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/ThreadPool.h">
+      <Unit filename="/home/CLionProject/platooninsertServer/ThreadPool.h">
       </Unit>
-      <Unit filename="/home/platooninsertServer/CMakeLists.txt">
+      <Unit filename="/home/CLionProject/platooninsertServer/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
    </Project>

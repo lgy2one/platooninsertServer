@@ -16,5 +16,6 @@ set(SOURCE_FILES main.cpp)
 add_definitions(-g -pthread -std=c++11)
 
 #添加所有头文件和源文件
+#添加所有头文件和源文件
 FILE(GLOB SRC *.cpp *.h)
 add_executable(platooninsertServer ${SOURCE_FILES} ${SRC})

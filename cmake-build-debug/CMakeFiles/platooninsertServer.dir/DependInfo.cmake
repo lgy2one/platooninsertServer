@@ -4,17 +4,17 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/platooninsertServer/Channel.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/Channel.cpp.o"
-  "/home/platooninsertServer/EchoServer.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o"
-  "/home/platooninsertServer/EventLoop.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o"
-  "/home/platooninsertServer/EventLoopThread.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o"
-  "/home/platooninsertServer/EventLoopThreadPool.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o"
-  "/home/platooninsertServer/Poller.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/Poller.cpp.o"
-  "/home/platooninsertServer/Socket.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/Socket.cpp.o"
-  "/home/platooninsertServer/TcpConnection.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o"
-  "/home/platooninsertServer/TcpServer.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o"
-  "/home/platooninsertServer/ThreadPool.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o"
-  "/home/platooninsertServer/main.cpp" "/home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/main.cpp.o"
+  "/home/CLionProject/platooninsertServer/Channel.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/Channel.cpp.o"
+  "/home/CLionProject/platooninsertServer/EchoServer.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o"
+  "/home/CLionProject/platooninsertServer/EventLoop.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o"
+  "/home/CLionProject/platooninsertServer/EventLoopThread.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o"
+  "/home/CLionProject/platooninsertServer/EventLoopThreadPool.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o"
+  "/home/CLionProject/platooninsertServer/Poller.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/Poller.cpp.o"
+  "/home/CLionProject/platooninsertServer/Socket.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/Socket.cpp.o"
+  "/home/CLionProject/platooninsertServer/TcpConnection.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o"
+  "/home/CLionProject/platooninsertServer/TcpServer.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o"
+  "/home/CLionProject/platooninsertServer/ThreadPool.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o"
+  "/home/CLionProject/platooninsertServer/main.cpp" "/home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

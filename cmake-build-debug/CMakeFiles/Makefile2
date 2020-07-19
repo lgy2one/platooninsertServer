@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/platooninsertServer
+CMAKE_SOURCE_DIR = /home/CLionProject/platooninsertServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/platooninsertServer/cmake-build-debug
+CMAKE_BINARY_DIR = /home/CLionProject/platooninsertServer/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/platooninsertServer.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/platooninsertServer/cmake-build-debug
 CMakeFiles/platooninsertServer.dir/all:
 	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/depend
 	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11
 	@echo "Built target platooninsertServer"
 .PHONY : CMakeFiles/platooninsertServer.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/platooninsertServer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/platooninsertServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/platooninsertServer/cmake-build-debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/platooninsertServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/platooninsertServer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/platooninsertServer.dir/rule
 
 # Convenience name for target.

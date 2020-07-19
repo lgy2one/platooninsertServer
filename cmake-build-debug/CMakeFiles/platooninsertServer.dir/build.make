@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/platooninsertServer
+CMAKE_SOURCE_DIR = /home/CLionProject/platooninsertServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/platooninsertServer/cmake-build-debug
+CMAKE_BINARY_DIR = /home/CLionProject/platooninsertServer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/platooninsertServer.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/platooninsertServer.dir/flags.make
 
 CMakeFiles/platooninsertServer.dir/main.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
 CMakeFiles/platooninsertServer.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/main.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/main.cpp.o -c /home/platooninsertServer/main.cpp
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/main.cpp.o -c /home/CLionProject/platooninsertServer/main.cpp
 
 CMakeFiles/platooninsertServer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/main.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/main.cpp > CMakeFiles/platooninsertServer.dir/main.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/main.cpp > CMakeFiles/platooninsertServer.dir/main.cpp.i
 
 CMakeFiles/platooninsertServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/main.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/main.cpp -o CMakeFiles/platooninsertServer.dir/main.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/main.cpp -o CMakeFiles/platooninsertServer.dir/main.cpp.s
 
 CMakeFiles/platooninsertServer.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/platooninsertServer.dir/main.cpp.o.requires
@@ -75,226 +75,19 @@ CMakeFiles/platooninsertServer.dir/main.cpp.o.provides: CMakeFiles/platooninsert
 
 CMakeFiles/platooninsertServer.dir/main.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/main.cpp.o
 
-CMakeFiles/platooninsertServer.dir/Channel.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
-CMakeFiles/platooninsertServer.dir/Channel.cpp.o: ../Channel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/Channel.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/Channel.cpp.o -c /home/platooninsertServer/Channel.cpp
-
-CMakeFiles/platooninsertServer.dir/Channel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/Channel.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/Channel.cpp > CMakeFiles/platooninsertServer.dir/Channel.cpp.i
-
-CMakeFiles/platooninsertServer.dir/Channel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/Channel.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/Channel.cpp -o CMakeFiles/platooninsertServer.dir/Channel.cpp.s
-
-CMakeFiles/platooninsertServer.dir/Channel.cpp.o.requires:
-.PHONY : CMakeFiles/platooninsertServer.dir/Channel.cpp.o.requires
-
-CMakeFiles/platooninsertServer.dir/Channel.cpp.o.provides: CMakeFiles/platooninsertServer.dir/Channel.cpp.o.requires
-	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/Channel.cpp.o.provides.build
-.PHONY : CMakeFiles/platooninsertServer.dir/Channel.cpp.o.provides
-
-CMakeFiles/platooninsertServer.dir/Channel.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/Channel.cpp.o
-
-CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
-CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o: ../EchoServer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o -c /home/platooninsertServer/EchoServer.cpp
-
-CMakeFiles/platooninsertServer.dir/EchoServer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/EchoServer.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/EchoServer.cpp > CMakeFiles/platooninsertServer.dir/EchoServer.cpp.i
-
-CMakeFiles/platooninsertServer.dir/EchoServer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/EchoServer.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/EchoServer.cpp -o CMakeFiles/platooninsertServer.dir/EchoServer.cpp.s
-
-CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.requires:
-.PHONY : CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.requires
-
-CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.provides: CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.provides.build
-.PHONY : CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.provides
-
-CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o
-
-CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
-CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o: ../EventLoop.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o -c /home/platooninsertServer/EventLoop.cpp
-
-CMakeFiles/platooninsertServer.dir/EventLoop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/EventLoop.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/EventLoop.cpp > CMakeFiles/platooninsertServer.dir/EventLoop.cpp.i
-
-CMakeFiles/platooninsertServer.dir/EventLoop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/EventLoop.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/EventLoop.cpp -o CMakeFiles/platooninsertServer.dir/EventLoop.cpp.s
-
-CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.requires:
-.PHONY : CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.requires
-
-CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.provides: CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.requires
-	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.provides.build
-.PHONY : CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.provides
-
-CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o
-
-CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
-CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o: ../EventLoopThread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o -c /home/platooninsertServer/EventLoopThread.cpp
-
-CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/EventLoopThread.cpp > CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.i
-
-CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/EventLoopThread.cpp -o CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.s
-
-CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.requires:
-.PHONY : CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.requires
-
-CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.provides: CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.requires
-	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.provides.build
-.PHONY : CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.provides
-
-CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o
-
-CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
-CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o: ../EventLoopThreadPool.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o -c /home/platooninsertServer/EventLoopThreadPool.cpp
-
-CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/EventLoopThreadPool.cpp > CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.i
-
-CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/EventLoopThreadPool.cpp -o CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.s
-
-CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.requires:
-.PHONY : CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.requires
-
-CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.provides: CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.requires
-	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.provides.build
-.PHONY : CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.provides
-
-CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o
-
-CMakeFiles/platooninsertServer.dir/Poller.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
-CMakeFiles/platooninsertServer.dir/Poller.cpp.o: ../Poller.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/Poller.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/Poller.cpp.o -c /home/platooninsertServer/Poller.cpp
-
-CMakeFiles/platooninsertServer.dir/Poller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/Poller.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/Poller.cpp > CMakeFiles/platooninsertServer.dir/Poller.cpp.i
-
-CMakeFiles/platooninsertServer.dir/Poller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/Poller.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/Poller.cpp -o CMakeFiles/platooninsertServer.dir/Poller.cpp.s
-
-CMakeFiles/platooninsertServer.dir/Poller.cpp.o.requires:
-.PHONY : CMakeFiles/platooninsertServer.dir/Poller.cpp.o.requires
-
-CMakeFiles/platooninsertServer.dir/Poller.cpp.o.provides: CMakeFiles/platooninsertServer.dir/Poller.cpp.o.requires
-	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/Poller.cpp.o.provides.build
-.PHONY : CMakeFiles/platooninsertServer.dir/Poller.cpp.o.provides
-
-CMakeFiles/platooninsertServer.dir/Poller.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/Poller.cpp.o
-
-CMakeFiles/platooninsertServer.dir/Socket.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
-CMakeFiles/platooninsertServer.dir/Socket.cpp.o: ../Socket.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/Socket.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/Socket.cpp.o -c /home/platooninsertServer/Socket.cpp
-
-CMakeFiles/platooninsertServer.dir/Socket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/Socket.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/Socket.cpp > CMakeFiles/platooninsertServer.dir/Socket.cpp.i
-
-CMakeFiles/platooninsertServer.dir/Socket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/Socket.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/Socket.cpp -o CMakeFiles/platooninsertServer.dir/Socket.cpp.s
-
-CMakeFiles/platooninsertServer.dir/Socket.cpp.o.requires:
-.PHONY : CMakeFiles/platooninsertServer.dir/Socket.cpp.o.requires
-
-CMakeFiles/platooninsertServer.dir/Socket.cpp.o.provides: CMakeFiles/platooninsertServer.dir/Socket.cpp.o.requires
-	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/Socket.cpp.o.provides.build
-.PHONY : CMakeFiles/platooninsertServer.dir/Socket.cpp.o.provides
-
-CMakeFiles/platooninsertServer.dir/Socket.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/Socket.cpp.o
-
-CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
-CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o: ../TcpConnection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o -c /home/platooninsertServer/TcpConnection.cpp
-
-CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/TcpConnection.cpp > CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.i
-
-CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/TcpConnection.cpp -o CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.s
-
-CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.requires:
-.PHONY : CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.requires
-
-CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.provides: CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.requires
-	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.provides.build
-.PHONY : CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.provides
-
-CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o
-
-CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
-CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o: ../TcpServer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o -c /home/platooninsertServer/TcpServer.cpp
-
-CMakeFiles/platooninsertServer.dir/TcpServer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/TcpServer.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/TcpServer.cpp > CMakeFiles/platooninsertServer.dir/TcpServer.cpp.i
-
-CMakeFiles/platooninsertServer.dir/TcpServer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/TcpServer.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/TcpServer.cpp -o CMakeFiles/platooninsertServer.dir/TcpServer.cpp.s
-
-CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.requires:
-.PHONY : CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.requires
-
-CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.provides: CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.provides.build
-.PHONY : CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.provides
-
-CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o
-
 CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
 CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o: ../ThreadPool.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o -c /home/platooninsertServer/ThreadPool.cpp
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o -c /home/CLionProject/platooninsertServer/ThreadPool.cpp
 
 CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/platooninsertServer/ThreadPool.cpp > CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/ThreadPool.cpp > CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.i
 
 CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/platooninsertServer/ThreadPool.cpp -o CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/ThreadPool.cpp -o CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.s
 
 CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o.requires:
 .PHONY : CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o.requires
@@ -305,34 +98,241 @@ CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o.provides: CMakeFiles/platoon
 
 CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o
 
+CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
+CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o: ../EventLoopThread.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o -c /home/CLionProject/platooninsertServer/EventLoopThread.cpp
+
+CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/EventLoopThread.cpp > CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.i
+
+CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/EventLoopThread.cpp -o CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.s
+
+CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.requires:
+.PHONY : CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.requires
+
+CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.provides: CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.requires
+	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.provides.build
+.PHONY : CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.provides
+
+CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o
+
+CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
+CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o: ../EchoServer.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o -c /home/CLionProject/platooninsertServer/EchoServer.cpp
+
+CMakeFiles/platooninsertServer.dir/EchoServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/EchoServer.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/EchoServer.cpp > CMakeFiles/platooninsertServer.dir/EchoServer.cpp.i
+
+CMakeFiles/platooninsertServer.dir/EchoServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/EchoServer.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/EchoServer.cpp -o CMakeFiles/platooninsertServer.dir/EchoServer.cpp.s
+
+CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.requires:
+.PHONY : CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.requires
+
+CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.provides: CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.provides.build
+.PHONY : CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.provides
+
+CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o
+
+CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
+CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o: ../TcpServer.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o -c /home/CLionProject/platooninsertServer/TcpServer.cpp
+
+CMakeFiles/platooninsertServer.dir/TcpServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/TcpServer.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/TcpServer.cpp > CMakeFiles/platooninsertServer.dir/TcpServer.cpp.i
+
+CMakeFiles/platooninsertServer.dir/TcpServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/TcpServer.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/TcpServer.cpp -o CMakeFiles/platooninsertServer.dir/TcpServer.cpp.s
+
+CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.requires:
+.PHONY : CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.requires
+
+CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.provides: CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.provides.build
+.PHONY : CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.provides
+
+CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o
+
+CMakeFiles/platooninsertServer.dir/Poller.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
+CMakeFiles/platooninsertServer.dir/Poller.cpp.o: ../Poller.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/Poller.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/Poller.cpp.o -c /home/CLionProject/platooninsertServer/Poller.cpp
+
+CMakeFiles/platooninsertServer.dir/Poller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/Poller.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/Poller.cpp > CMakeFiles/platooninsertServer.dir/Poller.cpp.i
+
+CMakeFiles/platooninsertServer.dir/Poller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/Poller.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/Poller.cpp -o CMakeFiles/platooninsertServer.dir/Poller.cpp.s
+
+CMakeFiles/platooninsertServer.dir/Poller.cpp.o.requires:
+.PHONY : CMakeFiles/platooninsertServer.dir/Poller.cpp.o.requires
+
+CMakeFiles/platooninsertServer.dir/Poller.cpp.o.provides: CMakeFiles/platooninsertServer.dir/Poller.cpp.o.requires
+	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/Poller.cpp.o.provides.build
+.PHONY : CMakeFiles/platooninsertServer.dir/Poller.cpp.o.provides
+
+CMakeFiles/platooninsertServer.dir/Poller.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/Poller.cpp.o
+
+CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
+CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o: ../TcpConnection.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o -c /home/CLionProject/platooninsertServer/TcpConnection.cpp
+
+CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/TcpConnection.cpp > CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.i
+
+CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/TcpConnection.cpp -o CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.s
+
+CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.requires:
+.PHONY : CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.requires
+
+CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.provides: CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.requires
+	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.provides.build
+.PHONY : CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.provides
+
+CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o
+
+CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
+CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o: ../EventLoopThreadPool.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o -c /home/CLionProject/platooninsertServer/EventLoopThreadPool.cpp
+
+CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/EventLoopThreadPool.cpp > CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.i
+
+CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/EventLoopThreadPool.cpp -o CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.s
+
+CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.requires:
+.PHONY : CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.requires
+
+CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.provides: CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.requires
+	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.provides.build
+.PHONY : CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.provides
+
+CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o
+
+CMakeFiles/platooninsertServer.dir/Channel.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
+CMakeFiles/platooninsertServer.dir/Channel.cpp.o: ../Channel.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/Channel.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/Channel.cpp.o -c /home/CLionProject/platooninsertServer/Channel.cpp
+
+CMakeFiles/platooninsertServer.dir/Channel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/Channel.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/Channel.cpp > CMakeFiles/platooninsertServer.dir/Channel.cpp.i
+
+CMakeFiles/platooninsertServer.dir/Channel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/Channel.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/Channel.cpp -o CMakeFiles/platooninsertServer.dir/Channel.cpp.s
+
+CMakeFiles/platooninsertServer.dir/Channel.cpp.o.requires:
+.PHONY : CMakeFiles/platooninsertServer.dir/Channel.cpp.o.requires
+
+CMakeFiles/platooninsertServer.dir/Channel.cpp.o.provides: CMakeFiles/platooninsertServer.dir/Channel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/Channel.cpp.o.provides.build
+.PHONY : CMakeFiles/platooninsertServer.dir/Channel.cpp.o.provides
+
+CMakeFiles/platooninsertServer.dir/Channel.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/Channel.cpp.o
+
+CMakeFiles/platooninsertServer.dir/Socket.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
+CMakeFiles/platooninsertServer.dir/Socket.cpp.o: ../Socket.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/Socket.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/Socket.cpp.o -c /home/CLionProject/platooninsertServer/Socket.cpp
+
+CMakeFiles/platooninsertServer.dir/Socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/Socket.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/Socket.cpp > CMakeFiles/platooninsertServer.dir/Socket.cpp.i
+
+CMakeFiles/platooninsertServer.dir/Socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/Socket.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/Socket.cpp -o CMakeFiles/platooninsertServer.dir/Socket.cpp.s
+
+CMakeFiles/platooninsertServer.dir/Socket.cpp.o.requires:
+.PHONY : CMakeFiles/platooninsertServer.dir/Socket.cpp.o.requires
+
+CMakeFiles/platooninsertServer.dir/Socket.cpp.o.provides: CMakeFiles/platooninsertServer.dir/Socket.cpp.o.requires
+	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/Socket.cpp.o.provides.build
+.PHONY : CMakeFiles/platooninsertServer.dir/Socket.cpp.o.provides
+
+CMakeFiles/platooninsertServer.dir/Socket.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/Socket.cpp.o
+
+CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o: CMakeFiles/platooninsertServer.dir/flags.make
+CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o: ../EventLoop.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o -c /home/CLionProject/platooninsertServer/EventLoop.cpp
+
+CMakeFiles/platooninsertServer.dir/EventLoop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platooninsertServer.dir/EventLoop.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/CLionProject/platooninsertServer/EventLoop.cpp > CMakeFiles/platooninsertServer.dir/EventLoop.cpp.i
+
+CMakeFiles/platooninsertServer.dir/EventLoop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platooninsertServer.dir/EventLoop.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/CLionProject/platooninsertServer/EventLoop.cpp -o CMakeFiles/platooninsertServer.dir/EventLoop.cpp.s
+
+CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.requires:
+.PHONY : CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.requires
+
+CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.provides: CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.requires
+	$(MAKE) -f CMakeFiles/platooninsertServer.dir/build.make CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.provides.build
+.PHONY : CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.provides
+
+CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.provides.build: CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o
+
 # Object files for target platooninsertServer
 platooninsertServer_OBJECTS = \
 "CMakeFiles/platooninsertServer.dir/main.cpp.o" \
-"CMakeFiles/platooninsertServer.dir/Channel.cpp.o" \
-"CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o" \
-"CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o" \
+"CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o" \
 "CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o" \
-"CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o" \
-"CMakeFiles/platooninsertServer.dir/Poller.cpp.o" \
-"CMakeFiles/platooninsertServer.dir/Socket.cpp.o" \
-"CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o" \
+"CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o" \
 "CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o" \
-"CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o"
+"CMakeFiles/platooninsertServer.dir/Poller.cpp.o" \
+"CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o" \
+"CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o" \
+"CMakeFiles/platooninsertServer.dir/Channel.cpp.o" \
+"CMakeFiles/platooninsertServer.dir/Socket.cpp.o" \
+"CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o"
 
 # External object files for target platooninsertServer
 platooninsertServer_EXTERNAL_OBJECTS =
 
 platooninsertServer: CMakeFiles/platooninsertServer.dir/main.cpp.o
-platooninsertServer: CMakeFiles/platooninsertServer.dir/Channel.cpp.o
-platooninsertServer: CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o
-platooninsertServer: CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o
-platooninsertServer: CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o
-platooninsertServer: CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o
-platooninsertServer: CMakeFiles/platooninsertServer.dir/Poller.cpp.o
-platooninsertServer: CMakeFiles/platooninsertServer.dir/Socket.cpp.o
-platooninsertServer: CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o
-platooninsertServer: CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o
 platooninsertServer: CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o
+platooninsertServer: CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o
+platooninsertServer: CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o
+platooninsertServer: CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o
+platooninsertServer: CMakeFiles/platooninsertServer.dir/Poller.cpp.o
+platooninsertServer: CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o
+platooninsertServer: CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o
+platooninsertServer: CMakeFiles/platooninsertServer.dir/Channel.cpp.o
+platooninsertServer: CMakeFiles/platooninsertServer.dir/Socket.cpp.o
+platooninsertServer: CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o
 platooninsertServer: CMakeFiles/platooninsertServer.dir/build.make
 platooninsertServer: CMakeFiles/platooninsertServer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable platooninsertServer"
@@ -343,16 +343,16 @@ CMakeFiles/platooninsertServer.dir/build: platooninsertServer
 .PHONY : CMakeFiles/platooninsertServer.dir/build
 
 CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/main.cpp.o.requires
-CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/Channel.cpp.o.requires
-CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.requires
-CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.requires
-CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.requires
-CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.requires
-CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/Poller.cpp.o.requires
-CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/Socket.cpp.o.requires
-CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.requires
-CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.requires
 CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/ThreadPool.cpp.o.requires
+CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/EventLoopThread.cpp.o.requires
+CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/EchoServer.cpp.o.requires
+CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/TcpServer.cpp.o.requires
+CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/Poller.cpp.o.requires
+CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/TcpConnection.cpp.o.requires
+CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/EventLoopThreadPool.cpp.o.requires
+CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/Channel.cpp.o.requires
+CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/Socket.cpp.o.requires
+CMakeFiles/platooninsertServer.dir/requires: CMakeFiles/platooninsertServer.dir/EventLoop.cpp.o.requires
 .PHONY : CMakeFiles/platooninsertServer.dir/requires
 
 CMakeFiles/platooninsertServer.dir/clean:
@@ -360,6 +360,6 @@ CMakeFiles/platooninsertServer.dir/clean:
 .PHONY : CMakeFiles/platooninsertServer.dir/clean
 
 CMakeFiles/platooninsertServer.dir/depend:
-	cd /home/platooninsertServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/platooninsertServer /home/platooninsertServer /home/platooninsertServer/cmake-build-debug /home/platooninsertServer/cmake-build-debug /home/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/CLionProject/platooninsertServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/CLionProject/platooninsertServer /home/CLionProject/platooninsertServer /home/CLionProject/platooninsertServer/cmake-build-debug /home/CLionProject/platooninsertServer/cmake-build-debug /home/CLionProject/platooninsertServer/cmake-build-debug/CMakeFiles/platooninsertServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/platooninsertServer.dir/depend
 
