@@ -1,12 +1,4 @@
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/CLionProject/platooninsertServer
 -- Configuring done
-CMake Error at CMakeLists.txt:21 (add_executable):
-  Cannot find source file:
-
-    main.cpp
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
-  .hxx .in .txx
-
-
+-- Generating done
 -- Build files have been written to: /home/CLionProject/platooninsertServer/cmake-build-debug

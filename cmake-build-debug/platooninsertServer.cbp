@@ -88,8 +88,6 @@
       </Unit>
       <Unit filename="/home/CLionProject/platooninsertServer/src/TcpServer.cpp">
       </Unit>
-      <Unit filename="/home/CLionProject/platooninsertServer/src/ThreadPool.cpp">
-      </Unit>
       <Unit filename="/home/CLionProject/platooninsertServer/src/main.cpp">
       </Unit>
       <Unit filename="/home/CLionProject/platooninsertServer/src/Channel.h">
@@ -109,8 +107,6 @@
       <Unit filename="/home/CLionProject/platooninsertServer/src/TcpConnection.h">
       </Unit>
       <Unit filename="/home/CLionProject/platooninsertServer/src/TcpServer.h">
-      </Unit>
-      <Unit filename="/home/CLionProject/platooninsertServer/src/ThreadPool.h">
       </Unit>
       <Unit filename="/home/CLionProject/platooninsertServer/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />

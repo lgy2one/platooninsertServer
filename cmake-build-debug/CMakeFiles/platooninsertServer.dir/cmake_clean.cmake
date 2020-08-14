@@ -1,5 +1,4 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/platooninsertServer.dir/src/ThreadPool.cpp.o"
   "CMakeFiles/platooninsertServer.dir/src/EventLoopThread.cpp.o"
   "CMakeFiles/platooninsertServer.dir/src/EchoServer.cpp.o"
   "CMakeFiles/platooninsertServer.dir/src/main.cpp.o"
